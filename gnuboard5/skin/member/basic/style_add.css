@@ -1,0 +1,152 @@
+#register_step_wrap {
+    position: relative;
+    width: 90vw;
+    height: 150px;
+    margin: 200px auto 100px;
+}
+
+.register_step_circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-250px);
+    width: 100px;
+    height: 100px;
+    padding: 17px 20px;
+    border: 8px solid #ddd;
+    border-radius: 50%;
+    color: #ddd;
+    font-size: 1.4em;
+    text-align: center;
+    background: #fff;
+}
+.register_step_circle strong {
+    font-size: 1.7em;
+    line-height: 1;
+}
+.register_step_circle span.register_txt {
+    position: absolute;
+    left: -57px;
+    bottom: -35px;
+    width: 200px;
+    color: #454545;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+
+.register_step_2 {
+    left: 50%;
+    transform: translateX(-50px);
+}
+.register_step_3 {
+    left: 50%;
+    transform: translateX(150px);
+}
+
+.register_step_1_on {
+    border-color: #f2838f;
+    color: #93b9ff;
+}
+.register_step_2_on {
+    border-color: #f2838f;
+    color: #93b9ff;
+}
+.register_step_3_on {
+    border-color: #f2838f;
+    color: #93b9ff;
+}
+
+.arrow_right {
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    right: -70px;
+    top: 30px;
+    overflow: hidden;
+}
+.arrow_right:before {
+    content: '';
+    height: 15px;
+    width: 15px;
+    display: block;
+    border: 5px solid #ccc;
+    border-left-width: 0;
+    border-top-width: 0;
+    position: absolute;
+    top: 5px;
+    left: 23px;
+    transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+.arrow_right:after {
+    content: '';
+    height: 6px;
+    width: 35px;
+    display: block;
+    background: #ccc;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+#fregister {
+    width: 90vw;
+    margin: 0 auto 100px;
+}
+#register_form {
+    width: 90vw;
+    margin: 0 auto 100px;
+}
+#fregister p {
+    margin-bottom: 0;
+}
+#fregister_chkall {
+    padding: 20px 0;
+    background: #f9f9f9;
+    font-size: 1.4em;
+    text-align: center;
+    border: 1px solid #ecc7d2;
+    border-top: 0;
+}
+
+#fregister .btn_confirm .btn_submit {
+    height: 40px;
+    padding: 0 60px;
+    font-weight: bold;
+    font-size: 1.083em;
+    background: #f2838f;
+}
+
+#fregisterform .btn_confirm .btn_submit {
+    height: 40px;
+    padding: 0 60px;
+    font-weight: bold;
+    font-size: 1.083em;
+    background: #f2838f;
+}
+#fregisterform .btn_confirm .btn_cancel {
+    line-height: 40px;
+    height: 40px;
+    padding: 0 30px;
+    font-weight: bold;
+    font-size: 1.083em;
+}
+#reg_result p:nth-child(4) {
+    margin-bottom: 40px;
+}
+#reg_result .btn_submit {
+    padding: 10px 60px;
+    background: #f2838f;
+}
+#logo_w {
+    display: none !important;
+}
+#logo {
+    display: block !important;
+}
+body #hd .fa-bars {
+    color: #000;
+}
